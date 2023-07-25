@@ -1,0 +1,13 @@
+title: 'Microsoft Office 2021'
+version: ProPlus2021Volume
+templates: 
+  default:
+    components: 
+      - Word
+      - Excel
+      - PowerPoint
+      - Outlook
+  visio: 
+    - Visio
+  outlook: 
+    components: [ Outlook ]

@@ -1,0 +1,24 @@
+<Configuration>
+  <Add OfficeClientEdition="64" Channel="">
+    <Product ID="">
+      <Language ID="MatchOS" />
+      <Language ID="ru-ru" />
+      <ExcludeApp ID="Access" />
+      <ExcludeApp ID="Groove" />
+      <ExcludeApp ID="Lync" />
+      <ExcludeApp ID="OneDrive" />
+      <ExcludeApp ID="OneNote" />
+      <ExcludeApp ID="Publisher" />
+      <ExcludeApp ID="Teams" />
+    </Product>
+    <Product ID="ProofingTools">
+      <Language ID="MatchOS" />
+      <Language ID="en-us" />
+    </Product>
+  </Add>
+  <Property Name="PinIconsToTaskbar" Value="FALSE" />
+  <Property Name="FORCEAPPSHUTDOWN" Value="TRUE" />
+  <Updates Enabled="TRUE" />
+  <Display Level="Full" AcceptEULA="TRUE" />
+  <Logging Level="Off" />
+</Configuration>
